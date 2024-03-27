@@ -1,0 +1,325 @@
+/*		Default Layout: 1200px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+*/
+
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+.container{
+	width: 95% !important;
+	padding: 0 !important;
+}
+.no_padding{
+    padding: 0 5px 0 15px !important;
+}
+
+	
+	
+	
+	
+}
+
+
+
+@media only screen and (min-width: 899px) and (max-width: 1050px) {
+
+	.container {
+		width: 95%;
+	}
+
+
+	
+	
+}
+
+
+@media only screen and (max-width: 898px) {
+
+	.container {
+		width: 95%;
+	}
+	
+	
+}
+
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 601px) and (max-width: 767px) {
+
+	.container{
+		width: 100% !important;
+	}
+	
+	
+	
+}
+
+
+
+@media only screen and (min-width: 750px) and (max-width: 1169px){
+    .container{
+    	width: 95% !important;
+    	padding: 0 !important;
+    }
+    .no_padding{
+        padding: 0 5px 0 15px !important;
+    }
+    .col-lg-6{
+        width: 50% !important;
+    }
+    img{
+        height: auto;
+    }
+    .col-lg-3{
+        width: 25% !important;
+    }
+    .col-lg-9{
+        width: 75% !important;
+    }
+    .wi_img > img{
+        height: auto !important;
+    }
+}
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 600px) {
+
+	.container {
+		width: 100%;
+	}
+	.sld_img {
+		width: 100%;
+	}
+	.sld_cnt {
+		width: 100%;
+	}
+	.flexslider .slides img {
+		height: 250px;
+	}
+	.col-xs-12{
+		padding: 5px !important;
+	}
+	.sng_int_img > img {
+		height: 110px;
+	}
+	#section_4_right{
+		margin: 0;
+	}
+	#navbar{
+		display: none;
+	}
+	.nav_bg{
+		display: none;
+	}
+	.mm_bg{
+		display: block;
+		background: black;
+	}
+
+	
+	
+}
+
+
+
+/*		Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 749px) {
+	
+	.container {
+		width: 100%;
+	}
+	img{
+	    height: auto !important;
+	}
+	.np{
+	    padding: 0;
+	}
+	
+	.sld_img {
+		width: 100%;
+	}
+	.sld_cnt {
+		width: 100%;
+	}
+	.flexslider .slides img {
+		height: auto;
+	}
+	.col-xs-12{
+		padding: 5px !important;
+	}
+	.sng_int_img > img {
+		height: 190px !important;
+	}
+	#section_4_right{
+		margin: 0;
+	}
+	#navbar{
+		display: none;
+	}
+	.nav_bg{
+		display: none;
+	}
+	.mm_bg{
+		display: block;
+		background: black;
+	}
+	.sng_ms{
+	    position: relative !important;
+	}
+	.sng_meta{
+	    width: 100%;
+	    display: inline-block;
+	}
+	.meta_info{
+	    width: 100%;
+	    border-top: 1px solid #fff;
+	}
+	.sng_meta p{
+	    width: 50%;
+	    float: left;
+	    padding-bottom: none;
+	    border: none;
+	    border-right: 1px solid #fff;
+	}
+	
+}
+
+
+
+
+/*		Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 180px) and (max-width: 479px) {
+	
+	.container {
+		width: 100%;
+	}
+	img{
+	    height: auto !important;
+	}
+	.np{
+	    padding: 0;
+	}
+	
+	.sld_img {
+		width: 100%;
+	}
+	.sld_cnt {
+		width: 100%;
+	}
+	.flexslider .slides img {
+		height: auto;
+	}
+	.col-xs-12{
+		padding: 5px !important;
+	}
+	.sng_int_img > img {
+		height: 110px;
+	}
+	#section_4_right{
+		margin: 0;
+	}
+	#navbar{
+		display: none;
+	}
+	.nav_bg{
+		display: none;
+	}
+	.mm_bg{
+		display: block;
+		background: black;
+	}
+	.sng_ms{
+	    position: relative;
+	    top: 0;
+	}
+	.sng_meta{
+	    width: 100%;
+	    display: inline-block;
+	}
+	.meta_info{
+	    width: 100%;
+	    border-top: 1px solid #fff;
+	}
+	.sng_meta p{
+	    width: 50%;
+	    float: left;
+	    padding-bottom: none;
+	    border: none;
+	    border-right: 1px solid #fff;
+	}
+	.sng_ms {
+        position: relative !important;
+    }
+	
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+
+
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
